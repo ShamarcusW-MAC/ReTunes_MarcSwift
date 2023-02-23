@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct ReTunes_MarcSwiftApp: App {
+    
+    let app = ApplicationController()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootView(topAlbumsViewModel: app.topAlbumsViewModel)
         }
     }
 }

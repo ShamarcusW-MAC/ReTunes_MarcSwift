@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21513" systemVersion="22D49" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ReTunesAlbum" representedClassName="ReTunesAlbum" syncable="YES">
+        <attribute name="artistID" optional="YES" attributeType="String"/>
+        <attribute name="artistName" optional="YES" attributeType="String"/>
+        <attribute name="artistURL" optional="YES" attributeType="String"/>
+        <attribute name="artworkUrl100" optional="YES" attributeType="String"/>
+        <attribute name="favorite" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="releaseDate" optional="YES" attributeType="String"/>
+        <attribute name="url" optional="YES" attributeType="String"/>
+        <relationship name="genre" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="TunesGenre" inverseName="album" inverseEntity="TunesGenre"/>
+    </entity>
+    <entity name="TunesGenre" representedClassName="TunesGenre" parentEntity="ReTunesAlbum" syncable="YES">
+        <attribute name="genreID" optional="YES" attributeType="String"/>
+        <attribute name="genreUrl" optional="YES" attributeType="String"/>
+        <relationship name="album" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ReTunesAlbum" inverseName="genre" inverseEntity="ReTunesAlbum"/>
+    </entity>
+</model>

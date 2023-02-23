@@ -8,17 +8,53 @@
 
 /* Begin PBXBuildFile section */
 		263D8F4B29A4105700C1277E /* ReTunes_MarcSwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263D8F4A29A4105700C1277E /* ReTunes_MarcSwiftApp.swift */; };
-		263D8F4D29A4105700C1277E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263D8F4C29A4105700C1277E /* ContentView.swift */; };
+		263D8F4D29A4105700C1277E /* TopAlbumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263D8F4C29A4105700C1277E /* TopAlbumsView.swift */; };
 		263D8F4F29A4105A00C1277E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 263D8F4E29A4105A00C1277E /* Assets.xcassets */; };
 		263D8F5229A4105A00C1277E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 263D8F5129A4105A00C1277E /* Preview Assets.xcassets */; };
+		263D8F5C29A4172500C1277E /* TopAlbumsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263D8F5B29A4172500C1277E /* TopAlbumsViewModel.swift */; };
+		263D8F5E29A4173600C1277E /* AlbumDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263D8F5D29A4173600C1277E /* AlbumDetailView.swift */; };
+		263D8F6029A4178A00C1277E /* AlbumDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263D8F5F29A4178A00C1277E /* AlbumDetailViewModel.swift */; };
+		263D8F6329A417A900C1277E /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263D8F6229A417A900C1277E /* Endpoints.swift */; };
+		263D8F6529A417B300C1277E /* iTunesNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263D8F6429A417B300C1277E /* iTunesNetworkManager.swift */; };
+		263D8F6829A4180800C1277E /* AlbumFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263D8F6729A4180800C1277E /* AlbumFeed.swift */; };
+		263D8F6A29A427DC00C1277E /* ApplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263D8F6929A427DC00C1277E /* ApplicationController.swift */; };
+		263D8F6E29A4290F00C1277E /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263D8F6D29A4290F00C1277E /* RootView.swift */; };
+		263D8F7029A45B5900C1277E /* AlbumTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263D8F6F29A45B5900C1277E /* AlbumTabView.swift */; };
+		263D8F7229A45D6D00C1277E /* FavoriteAlbumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263D8F7129A45D6D00C1277E /* FavoriteAlbumsView.swift */; };
+		263D8F7429A4A01D00C1277E /* ReTunesColors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 263D8F7329A4A01D00C1277E /* ReTunesColors.xcassets */; };
+		263D8F7629A5F8A000C1277E /* ReTunesDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263D8F7529A5F8A000C1277E /* ReTunesDatabase.swift */; };
+		263D8F7B29A6299200C1277E /* DatabaseAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263D8F7A29A6299200C1277E /* DatabaseAlbum.swift */; };
+		2643994B29A7512200DFE3F9 /* Albums.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2643994929A7512200DFE3F9 /* Albums.xcdatamodeld */; };
+		2643995029A76D9500DFE3F9 /* TunesGenre+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2643994C29A76D9500DFE3F9 /* TunesGenre+CoreDataClass.swift */; };
+		2643995129A76D9500DFE3F9 /* TunesGenre+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2643994D29A76D9500DFE3F9 /* TunesGenre+CoreDataProperties.swift */; };
+		2643995229A76D9500DFE3F9 /* ReTunesAlbum+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2643994E29A76D9500DFE3F9 /* ReTunesAlbum+CoreDataClass.swift */; };
+		2643995329A76D9500DFE3F9 /* ReTunesAlbum+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2643994F29A76D9500DFE3F9 /* ReTunesAlbum+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		263D8F4729A4105700C1277E /* ReTunes_MarcSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReTunes_MarcSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		263D8F4A29A4105700C1277E /* ReTunes_MarcSwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReTunes_MarcSwiftApp.swift; sourceTree = "<group>"; };
-		263D8F4C29A4105700C1277E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		263D8F4C29A4105700C1277E /* TopAlbumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAlbumsView.swift; sourceTree = "<group>"; };
 		263D8F4E29A4105A00C1277E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		263D8F5129A4105A00C1277E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		263D8F5B29A4172500C1277E /* TopAlbumsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAlbumsViewModel.swift; sourceTree = "<group>"; };
+		263D8F5D29A4173600C1277E /* AlbumDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailView.swift; sourceTree = "<group>"; };
+		263D8F5F29A4178A00C1277E /* AlbumDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailViewModel.swift; sourceTree = "<group>"; };
+		263D8F6229A417A900C1277E /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		263D8F6429A417B300C1277E /* iTunesNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesNetworkManager.swift; sourceTree = "<group>"; };
+		263D8F6729A4180800C1277E /* AlbumFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumFeed.swift; sourceTree = "<group>"; };
+		263D8F6929A427DC00C1277E /* ApplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationController.swift; sourceTree = "<group>"; };
+		263D8F6D29A4290F00C1277E /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		263D8F6F29A45B5900C1277E /* AlbumTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumTabView.swift; sourceTree = "<group>"; };
+		263D8F7129A45D6D00C1277E /* FavoriteAlbumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteAlbumsView.swift; sourceTree = "<group>"; };
+		263D8F7329A4A01D00C1277E /* ReTunesColors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ReTunesColors.xcassets; sourceTree = "<group>"; };
+		263D8F7529A5F8A000C1277E /* ReTunesDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReTunesDatabase.swift; sourceTree = "<group>"; };
+		263D8F7A29A6299200C1277E /* DatabaseAlbum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseAlbum.swift; sourceTree = "<group>"; };
+		2643994A29A7512200DFE3F9 /* Albums.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Albums.xcdatamodel; sourceTree = "<group>"; };
+		2643994C29A76D9500DFE3F9 /* TunesGenre+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TunesGenre+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2643994D29A76D9500DFE3F9 /* TunesGenre+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TunesGenre+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2643994E29A76D9500DFE3F9 /* ReTunesAlbum+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReTunesAlbum+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2643994F29A76D9500DFE3F9 /* ReTunesAlbum+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReTunesAlbum+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +87,16 @@
 		263D8F4929A4105700C1277E /* ReTunes_MarcSwift */ = {
 			isa = PBXGroup;
 			children = (
-				263D8F4A29A4105700C1277E /* ReTunes_MarcSwiftApp.swift */,
-				263D8F4C29A4105700C1277E /* ContentView.swift */,
+				2643995429A7759000DFE3F9 /* CoreData */,
+				263D8F6629A417E900C1277E /* Model */,
+				263D8F6129A4179500C1277E /* Network */,
+				263D8F5A29A4167100C1277E /* Shell */,
+				263D8F5929A4166A00C1277E /* ViewModel */,
+				263D8F5829A4166300C1277E /* View */,
 				263D8F4E29A4105A00C1277E /* Assets.xcassets */,
 				263D8F5029A4105A00C1277E /* Preview Content */,
+				263D8F7329A4A01D00C1277E /* ReTunesColors.xcassets */,
+				2643994929A7512200DFE3F9 /* Albums.xcdatamodeld */,
 			);
 			path = ReTunes_MarcSwift;
 			sourceTree = "<group>";
@@ -65,6 +107,82 @@
 				263D8F5129A4105A00C1277E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		263D8F5829A4166300C1277E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				263D8F6F29A45B5900C1277E /* AlbumTabView.swift */,
+				263D8F5D29A4173600C1277E /* AlbumDetailView.swift */,
+				263D8F7129A45D6D00C1277E /* FavoriteAlbumsView.swift */,
+				263D8F4C29A4105700C1277E /* TopAlbumsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		263D8F5929A4166A00C1277E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				263D8F5B29A4172500C1277E /* TopAlbumsViewModel.swift */,
+				263D8F5F29A4178A00C1277E /* AlbumDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		263D8F5A29A4167100C1277E /* Shell */ = {
+			isa = PBXGroup;
+			children = (
+				263D8F4A29A4105700C1277E /* ReTunes_MarcSwiftApp.swift */,
+				263D8F6929A427DC00C1277E /* ApplicationController.swift */,
+				263D8F6D29A4290F00C1277E /* RootView.swift */,
+			);
+			path = Shell;
+			sourceTree = "<group>";
+		};
+		263D8F6129A4179500C1277E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				263D8F6229A417A900C1277E /* Endpoints.swift */,
+				263D8F6429A417B300C1277E /* iTunesNetworkManager.swift */,
+				263D8F7529A5F8A000C1277E /* ReTunesDatabase.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		263D8F6629A417E900C1277E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				263D8F6729A4180800C1277E /* AlbumFeed.swift */,
+				263D8F7A29A6299200C1277E /* DatabaseAlbum.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2643995429A7759000DFE3F9 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				2643995629A7764900DFE3F9 /* Album */,
+				2643995529A7763F00DFE3F9 /* Genre */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		2643995529A7763F00DFE3F9 /* Genre */ = {
+			isa = PBXGroup;
+			children = (
+				2643994C29A76D9500DFE3F9 /* TunesGenre+CoreDataClass.swift */,
+				2643994D29A76D9500DFE3F9 /* TunesGenre+CoreDataProperties.swift */,
+			);
+			path = Genre;
+			sourceTree = "<group>";
+		};
+		2643995629A7764900DFE3F9 /* Album */ = {
+			isa = PBXGroup;
+			children = (
+				2643994E29A76D9500DFE3F9 /* ReTunesAlbum+CoreDataClass.swift */,
+				2643994F29A76D9500DFE3F9 /* ReTunesAlbum+CoreDataProperties.swift */,
+			);
+			path = Album;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				263D8F5229A4105A00C1277E /* Preview Assets.xcassets in Resources */,
+				263D8F7429A4A01D00C1277E /* ReTunesColors.xcassets in Resources */,
 				263D8F4F29A4105A00C1277E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +256,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				263D8F4D29A4105700C1277E /* ContentView.swift in Sources */,
+				263D8F7629A5F8A000C1277E /* ReTunesDatabase.swift in Sources */,
+				263D8F6A29A427DC00C1277E /* ApplicationController.swift in Sources */,
+				263D8F5C29A4172500C1277E /* TopAlbumsViewModel.swift in Sources */,
+				263D8F7229A45D6D00C1277E /* FavoriteAlbumsView.swift in Sources */,
+				263D8F7B29A6299200C1277E /* DatabaseAlbum.swift in Sources */,
+				263D8F6529A417B300C1277E /* iTunesNetworkManager.swift in Sources */,
+				263D8F4D29A4105700C1277E /* TopAlbumsView.swift in Sources */,
+				263D8F6E29A4290F00C1277E /* RootView.swift in Sources */,
+				2643995329A76D9500DFE3F9 /* ReTunesAlbum+CoreDataProperties.swift in Sources */,
 				263D8F4B29A4105700C1277E /* ReTunes_MarcSwiftApp.swift in Sources */,
+				263D8F5E29A4173600C1277E /* AlbumDetailView.swift in Sources */,
+				263D8F6329A417A900C1277E /* Endpoints.swift in Sources */,
+				263D8F6029A4178A00C1277E /* AlbumDetailViewModel.swift in Sources */,
+				263D8F7029A45B5900C1277E /* AlbumTabView.swift in Sources */,
+				2643995029A76D9500DFE3F9 /* TunesGenre+CoreDataClass.swift in Sources */,
+				263D8F6829A4180800C1277E /* AlbumFeed.swift in Sources */,
+				2643995129A76D9500DFE3F9 /* TunesGenre+CoreDataProperties.swift in Sources */,
+				2643995229A76D9500DFE3F9 /* ReTunesAlbum+CoreDataClass.swift in Sources */,
+				2643994B29A7512200DFE3F9 /* Albums.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +475,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2643994929A7512200DFE3F9 /* Albums.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2643994A29A7512200DFE3F9 /* Albums.xcdatamodel */,
+			);
+			currentVersion = 2643994A29A7512200DFE3F9 /* Albums.xcdatamodel */;
+			path = Albums.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 263D8F3F29A4105700C1277E /* Project object */;
 }
